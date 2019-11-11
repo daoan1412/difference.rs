@@ -24,6 +24,7 @@ bin = ["getopts"]
 
 [dependencies]
 getopts = {version = "0.2", optional = true}
+serde = { version = "1.0", features = ["derive"] }
 
 [dev-dependencies]
 term = "0.5"

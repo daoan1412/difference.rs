@@ -5,6 +5,7 @@ extern crate difference;
 #[cfg(feature = "bin")]
 extern crate getopts;
 
+
 #[cfg(feature = "bin")]
 use getopts::Options;
 #[cfg(feature = "bin")]
