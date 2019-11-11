@@ -51,7 +51,7 @@ use serde::{Deserialize, Serialize};
 /// Defines the contents of a changeset
 /// Changesets will be delivered in order of appearance in the original string
 /// Sequences of the same kind will be grouped into one Difference
-#[derive(PartialEq, Debug, Serialize, Deserialize, Copy, Clone)]
+#[derive(PartialEq, Debug, Serialize, Deserialize, Clone)]
 pub enum Difference {
     /// Sequences that are the same
     Same(String),
